@@ -2,7 +2,7 @@
 
 Implementation and supporting material for the bachelor thesis **"Procjena faktora u faktorskim modelima povrata imovina zasnovana na strojnom učenju"** / **"Machine Learning Based Factor Estimation in Factor Models of Asset Returns"**.
 
-The project investigates whether an LSTM neural network can improve the estimation of risk premiums in the Fama-French three-factor model compared with classical approaches such as the historical mean and Fama-MacBeth regression. The evaluation is performed out-of-sample using 49 industry portfolios and monthly financial data. :contentReference[oaicite:0]{index=0}
+The project investigates whether an LSTM neural network can improve the estimation of risk premiums in the Fama-French three-factor model compared with classical approaches such as the historical mean and Fama-MacBeth regression. The evaluation is performed out-of-sample using 49 industry portfolios and monthly financial data.
 
 ## Overview
 
@@ -13,9 +13,9 @@ The project compares four approaches:
 - Oracle estimate (idealized upper bound)
 - LSTM neural network
 
-The LSTM uses historical factor returns together with an additional macroeconomic variable to estimate time-varying factor premiums. :contentReference[oaicite:1]{index=1}
+The LSTM uses historical factor returns together with an additional macroeconomic variable to estimate time-varying factor premiums.
 
-The results indicate that the LSTM outperforms the feasible classical methods, although predicting factor premiums remains a difficult problem. :contentReference[oaicite:2]{index=2}
+The results indicate that the LSTM outperforms the feasible classical methods, although predicting factor premiums remains a difficult problem. 
 
 ## Data
 
@@ -26,7 +26,7 @@ The analysis uses:
 - Risk-free rate
 - Shiller's **Excess CAPE Yield (ECY)**
 
-The sample covers monthly observations from January 1970 to February 2026. :contentReference[oaicite:3]{index=3}
+The sample covers monthly observations from January 1970 to February 2026.
 
 ## Disclaimer
 
